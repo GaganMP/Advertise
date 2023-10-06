@@ -1,0 +1,93 @@
+.hai {
+  position: sticky;
+  margin: 1em;
+  padding:2em 0.5em 2em 0.5em;
+  display: flex;
+  place-content: space-around;
+  color: white;
+  background-color: black;
+
+}
+head p { 
+    &:hover {
+  color: orange;
+  font-size: 25px;
+  text-decoration: underline;
+    }
+}/*# sourceMappingURL=Sample.css.map */
+
+.back
+{
+    background-image:url(./imgs/S.webp) ;
+    background-size:cover;
+    align-items:center;
+    background-repeat: no-repeat ;
+    display:flex;
+    
+}
+
+
+.car {
+    padding: 40em 50em;
+     
+
+
+}
+
+
+
+@keyframes b {
+    from { color:red;}
+     to {color:white;}
+    }
+
+.blink
+{
+    width:10em;
+    height:100px;
+    color:white;
+
+    animation-name:b;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    animation-delay:2;
+
+}
+
+
+
+ .bimg{
+ width:20em;
+ height:20 em;
+ img{float:left}
+
+}
+
+
+
+
+.bimg{
+    width:20em;
+    height:20 em;
+    img{float:justify};
+    text-align:end;
+   
+   }
+
+
+.bod{
+height: 30em;
+width:auto;
+margin-bottom: 2em;
+padding-bottom: 2em;
+
+
+border-left-style: solid;
+border-left-width: 1px;
+}
+
+
+
+
+
+        
