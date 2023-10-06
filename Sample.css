@@ -8,7 +8,7 @@
   background-color: black;
 
 }
-head p { 
+.hai p { 
     &:hover {
   color: orange;
   font-size: 25px;
